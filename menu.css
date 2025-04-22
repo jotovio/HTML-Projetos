@@ -1,0 +1,44 @@
+.menu {
+    background: #1a1a1a;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu img {
+    width: 80px;
+    transition: transform 0.75s ease;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: transform 0.75s ease;
+}
+
+.menu img:hover {
+    transform: scale(1.15);
+    cursor:pointer
+}
+.menu #l1:hover,
+.menu #l2:hover,
+.menu #l4:hover { 
+    color: #f4799b; 
+    transform: scale(1.15);
+}
+.menu #l3:hover {
+    color: #42ff6b; 
+    transform: scale(1.15);
+}
+
+
+

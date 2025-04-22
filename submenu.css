@@ -1,0 +1,34 @@
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #2a2a2a;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    padding: 10px 0 10px 0;
+    border-radius: 3px 35px 3px 35px;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+}
+
+.submenu li:hover{
+    background-color: rgb(82, 82, 82);
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown:hover .submenu {
+    max-height: 400px;
+    opacity: 1;
+}
+
+.submenu li {
+    padding: 15px 20px 15px 20px;
+    line-height: 0.3px;
+    white-space: nowrap;
+}
